@@ -13,8 +13,6 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import requests
 
-# initialize driver with browser
-driver = webdriver.Chrome()
 # test deployment url
 url = "http://localhost:5000/"
 driver.get(url)
